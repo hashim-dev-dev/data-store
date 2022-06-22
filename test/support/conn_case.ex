@@ -23,6 +23,7 @@ defmodule DataStoreWeb.ConnCase do
       import Plug.Conn
       import Phoenix.ConnTest
       import DataStoreWeb.ConnCase
+      import DataStore.Factory
 
       alias DataStoreWeb.Router.Helpers, as: Routes
 
