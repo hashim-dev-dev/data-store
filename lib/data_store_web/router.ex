@@ -17,7 +17,7 @@ defmodule DataStoreWeb.Router do
   scope "/", DataStoreWeb do
     pipe_through :browser
 
-    #get "/", PageController, :index
+    get "/", PageController, :index
     post "/tasks", TaskController, :create
     get "/tasks", TaskController, :index
   end
